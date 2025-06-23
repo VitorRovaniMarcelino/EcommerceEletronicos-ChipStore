@@ -1,3 +1,8 @@
+
+    a {
+        text-decoration: none;
+    }
+    
     * {
         margin:0;
         padding: 0;
@@ -8,9 +13,9 @@
         display: flex;
         align-items: center;
         width: 100%;
-        max-width: 1200px;
+        max-width: 100%;
         margin: 0 auto;
-        padding: 10px 20%;
+        padding: 2% 20%;
         background-color: rgb(34 52 129 / 60%);
     }   
     
@@ -26,18 +31,42 @@
         border-radius: 50px;
         border: 2px solid rgba(0, 0, 0, 0.2);
         margin-left: 30px;
-        background-image: url('imagens/lupa.png');
+        background-image: url('imagens/faixa/lupa.png');
         background-repeat: no-repeat;
-        background-position: 390px center;
+        background-position: 33vw center;
         background-size: 25px 25px;
+    }
+
+    .texto2{
+        text-shadow: 2px 2px 4px #000000;
+        opacity: 0.8;
+        color: #5effe3;
+        font-size: 40px;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
     }
     
     .texto {
-        margin-left: 20px;
-        font-size: 20px;
+        transition: all 0.3s ease;
+        text-shadow: 2px 2px 4px #000000;
+        opacity: 0.8;
+        transform: rotate(-5deg);
+        color: white;
+        margin-left: 3vw;
+        font-size: 22px;
         font-family: Arial, sans-serif;
         font-weight: bold;
-        text-decoration: underline;
+        cursor: pointer;
+        transition: background-color 0.3s, opacity 0.3s transform 0.3;
+    }
+    .texto:hover{
+        transform: scale(1.1);
+    }
+
+    .texto:hover{
+        color: #31dcd0;
+        opacity: 0.9;
+        transform: scale(1.05)
     }
 
     .centro{
@@ -81,6 +110,36 @@
     
     .botao-login:hover {
         background-color: #e0e0e0;
-        opacity: 0.9;
-        transform: scale(1.05)
+        opacity: 0.6;
+        transform: scale(1.07)
+    }
+
+    .primeiroLogin{
+        font-weight: normal;
+        margin-top: -10vw;
+        margin-left: -63vh;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+
+    .segundoLogin{
+        font-weight: normal;
+        margin-top: 2vw;
+        margin-left: -63vh; 
+        color: white;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+
+    .esqueceuSenha{
+        font-weight: normal;
+        margin-top: 0.521vw;
+        margin-left: 26vw;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+        cursor: pointer
+    }
+    
+    .imagens{
+        height: 29.7vw;
     }
