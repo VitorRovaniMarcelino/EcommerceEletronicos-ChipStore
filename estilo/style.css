@@ -97,11 +97,11 @@
     }
 
     .botao-login {
-        padding: 15px 35px;
+        padding: 15px 70px;
         font-size: 20px;
         font-family: Arial, sans-serif;
         background-color: white;
-        color: rgb(8, 148, 252);
+        color: rgb(0, 0, 0);
         border: none;
         border-radius: 10px;
         cursor: pointer;
@@ -110,8 +110,8 @@
     
     .botao-login:hover {
         background-color: #e0e0e0;
-        opacity: 0.6;
-        transform: scale(1.07)
+        opacity: 0.8;
+        transform: scale(1.05)
     }
 
     .primeiroLogin{
