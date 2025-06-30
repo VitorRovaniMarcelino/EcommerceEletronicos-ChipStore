@@ -12,8 +12,6 @@
         position: fixed;
         display: flex;
         align-items: center;
-        width: 100%;
-        max-width: 100%;
         margin: 0 auto;
         padding: 2% 20%;
         background-color: rgb(34 52 129 / 60%);
@@ -24,18 +22,23 @@
     }
     
     .pesquisa{
-        width: 35%;
-        height: 25px;
-        font-size: 13px;
-        padding: 5px;
-        border-radius: 50px;
-        border: 2px solid rgba(0, 0, 0, 0.2);
-        margin-left: 30px;
+        width: 35vw;
+        height: 2vw;
+        font-size: 15px;
+        padding: 8px 12px;
+        border-radius: 5vw;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        margin-left: 2vw;
         background-image: url('imagens/faixa/lupa.png');
         background-repeat: no-repeat;
-        background-position: 33vw center;
+        background-position: 35vw center;
         background-size: 25px 25px;
     }
+    
+    .pesquisa:focus{
+        border: 1px solid #555;
+    }
+
 
     .texto2{
         text-shadow: 2px 2px 4px #000000;
@@ -78,8 +81,8 @@
 
     .login{
         background-color: rgb(73, 176, 255);
-        width: 34%;
-        height: 30px;
+        width: 35%;
+        height: 2.5vw;
         padding: 8px 12px;
         font-size: 16px;
         border: 1px solid #999;
