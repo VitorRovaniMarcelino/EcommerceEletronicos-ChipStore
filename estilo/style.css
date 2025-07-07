@@ -10,6 +10,8 @@
 
     .menu {
         position: fixed;
+        z-index: 9999;
+        position: fixed;
         display: flex;
         align-items: center;
         margin: 0 auto;
@@ -161,6 +163,16 @@
         border-radius: 12px;
     }
 
+    .produtosMenu{
+        width: 12vw;
+        height: 20vw;
+        background-color: white;
+        border-radius: 10px;
+        padding: 0.5vw;
+        text-align: center;
+        color: black;
+    }
+
 
     .produtos{
         display: flex;
@@ -168,3 +180,7 @@
         gap: 100px;
     }
 
+    .produtos2{
+        width: 30vw;
+        height: 30vw;
+    }
