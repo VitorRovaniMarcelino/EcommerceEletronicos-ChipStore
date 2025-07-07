@@ -52,12 +52,13 @@
     }
     
     .texto {
+        margin-left: 7vw;
         transition: all 0.3s ease;
         text-shadow: 2px 2px 4px #000000;
         opacity: 0.8;
         transform: rotate(-5deg);
         color: white;
-        margin-left: 3vw;
+        margin-left: 70px;
         font-size: 22px;
         font-family: Arial, sans-serif;
         font-weight: bold;
@@ -66,9 +67,6 @@
     }
     .texto:hover{
         transform: scale(1.1);
-    }
-
-    .texto:hover{
         color: #31dcd0;
         opacity: 0.9;
         transform: scale(1.05)
@@ -175,6 +173,7 @@
 
 
     .produtos{
+        font-weight: bold;
         display: flex;
         justify-content: center;
         gap: 100px;
@@ -184,3 +183,36 @@
         width: 30vw;
         height: 30vw;
     }
+
+    .footer{
+        width: 100%;
+        padding: 2rem 0;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .logo{
+        position: absolute;
+        left: 3vw;
+        height: 40px;
+        }
+      4
+      .pesquisa{
+        margin: 0 20px;
+        padding: 5px 10px;
+        flex-grow: 1;
+      }
+      
+      .produto-container{
+        max-width: 1000px;
+        margin: 100px auto;
+        padding: 20px;
+      }
+      
+      .produto-img {
+        max-width: 100%;
+        border-radius: 10px;
+      }
