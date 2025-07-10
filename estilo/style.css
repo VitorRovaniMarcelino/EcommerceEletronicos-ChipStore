@@ -1,4 +1,6 @@
-
+    p, span {
+        word-break: break-word;
+    } 
     body {
         overflow-x: hidden;
         margin: 0;
@@ -10,9 +12,15 @@
     }
     
     * {
-        margin:0;
+        margin: 0;
         padding: 0;
-    }
+        box-sizing: border-box;
+      }
+      
+      html, body {
+        overflow-x: hidden;
+        width: 100%;
+      }
 
     .menu {
         position: fixed;
@@ -30,7 +38,7 @@
     }
     
     .pesquisa{
-        width: 35vw;
+        width: 30vw;
         height: 2vw;
         font-size: 15px;
         padding: 8px 12px;
@@ -58,13 +66,12 @@
     }
     
     .texto {
-        margin-left: 7vw;
+        margin-left: 3vw;
         transition: all 0.3s ease;
         text-shadow: 2px 2px 4px #000000;
         opacity: 0.8;
         transform: rotate(-5deg);
         color: white;
-        margin-left: 70px;
         font-size: 22px;
         font-family: Arial, sans-serif;
         font-weight: bold;
@@ -168,6 +175,10 @@
     }
 
     .produtosMenu{
+        width: 250px;
+        text-align: center;
+        word-wrap: break-word;
+        text-align: center;
         width: 12vw;
         height: 20vw;
         background-color: white;
@@ -205,7 +216,7 @@
         left: 3vw;
         height: 40px;
         }
-      4
+
       .pesquisa{
         margin: 0 20px;
         padding: 5px 10px;
