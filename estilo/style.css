@@ -216,12 +216,6 @@
         left: 3vw;
         height: 40px;
         }
-
-      .pesquisa{
-        margin: 0 20px;
-        padding: 5px 10px;
-        flex-grow: 1;
-      }
       
       .produto-container{
         max-width: 1000px;
