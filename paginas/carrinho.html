@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>ChipStore - Carrinho</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link rel="icon" href="../imagens/faixa/iconedaora.png" type="image/png" />
+  <link rel="stylesheet" href="../estilo/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body class="fundo">
+
+  <!-- Menu -->
+  <div class="menu">
+      <img style="position: absolute; left: 3vw" src="../imagens/faixa/iconedaora.png" alt="icone"/>
+      <h1 class="texto2" style="margin-left: -10vw;">ChipStore</h1>
+      <input type="text" placeholder="Pesquisar na ChipStore" class="pesquisa"/>
+      <a href="../index.html"><h1 class="texto">Menu</h1></a>
+      <a href="../paginas/produtos.html"><h1 class="texto">Produtos</h1></a>
+      <a href="../paginas/sobre.html"><h1 class="texto">Sobre</h1></a>
+      <a href="../paginas/login.html"><h1 class="texto">Cadastro/Login</h1></a>
+      <a href="../paginas/carrinho.html"><h1 class="texto" style="color: #5effe3">Carrinho</h1></a>
+  </div>
+
+  <h1 class="centro texto3" style="font-family: 'Orbitron', sans-serif; font-size: 40px; padding-top: 10%;">Meu Carrinho</h1>
+
+  <div style="padding-top: 2%; padding-bottom: 50px;">
+      <div class="carrinho-container centro flex-wrap gap-3">
+          <div class="carrinho-vazio text-center">
+              <h2>Seu carrinho está vazio</h2>
+              <p>Adicione produtos clicando em "Adicionar ao Carrinho"</p>
+          </div>
+      </div>
+
+      <div class="carrinho-total text-center mt-4">
+          <span id="preco-total">Total: R$ 0,00</span>
+          <div class="carrinho-finalizar mt-2">
+              <button id="comprar-tudo" class="btn btn-success">Finalizar Compra</button>
+          </div>
+      </div>
+  </div>
+
+  <div style="background-color: rgb(34 52 129 / 60%); margin-top: auto;">
+      <footer class="centro footer">
+          <p style="color: white">2025 - Desenvolvido por @Vitor Rovani</p>
+      </footer>
+  </div>
+
+  <script src="../js/carrinho-display.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

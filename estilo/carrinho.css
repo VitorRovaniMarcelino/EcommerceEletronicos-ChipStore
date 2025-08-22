@@ -1,0 +1,209 @@
+p, span {
+    word-break: break-word;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: rgb(8, 148, 252);
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    flex: 1;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.menu {
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2% 20%;
+    background-color: rgb(34 52 129 / 60%);
+}
+
+.fundo {
+    background-color: rgb(8, 148, 252);
+}
+
+.pesquisa{
+    width: 30vw;
+    height: 2vw;
+    font-size: 15px;
+    padding: 8px 12px;
+    border-radius: 5vw;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-left: 2vw;
+    background-image: url('../imagens/faixa/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 33vw center;
+    background-size: 25px 25px;
+}
+
+.pesquisa:focus{
+    border: 1px solid #555;
+}
+
+.texto2{
+    text-shadow: 2px 2px 4px #000000;
+    opacity: 0.8;
+    color: #5effe3;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.texto {
+    margin-left: 3vw;
+    transition: all 0.3s ease;
+    text-shadow: 2px 2px 4px #000000;
+    opacity: 0.8;
+    transform: rotate(-5deg);
+    color: white;
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.texto:hover{
+    transform: scale(1.05);
+    color: #31dcd0;
+    opacity: 0.9;
+}
+
+.centro{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    width: 100%;
+    padding: 2rem 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: rgb(34 52 129 / 60%);
+}
+
+.carrinho-container {
+    max-width: 1000px;
+    margin: 120px auto 50px auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.carrinho-header {
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr 1fr 1fr;
+    font-weight: bold;
+    padding: 15px 0;
+    border-bottom: 2px solid #ccc;
+    color: #222;
+}
+
+.carrinho-item {
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.carrinho-item img {
+    max-width: 80px;
+    border-radius: 8px;
+}
+
+.carrinho-item-details h5 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.carrinho-item-details p {
+    font-size: 14px;
+    color: #666;
+}
+
+.carrinho-item-actions input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.carrinho-item-actions button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4d4d;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.carrinho-item-actions button:hover {
+    background-color: #e60000;
+}
+
+.carrinho-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.carrinho-finalizar {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.carrinho-finalizar button {
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(34 52 129);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.carrinho-finalizar button:hover {
+    background-color: rgb(8 148 252);
+}
