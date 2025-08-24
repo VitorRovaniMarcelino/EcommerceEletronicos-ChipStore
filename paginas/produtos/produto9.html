@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>ChipStore - Produto 9</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" href="../../imagens/faixa/iconedaora.png" type="image/png" />
+  <link rel="stylesheet" href="../../estilo/style.css" />
+  <link rel="stylesheet" href="../../estilo/style-produto.css" />
+</head>
+<body class="fundo">
+
+  <div class="menu">
+      <img style="position: absolute; left: 3vw" src="../../imagens/faixa/iconedaora.png" alt="icone"/>
+      <h1 class="texto2" style="margin-left: -10vw;">ChipStore</h1>
+      <input type="text" placeholder="Pesquisar na ChipStore" class="pesquisa"/>
+      <a href="../../index.html"><h1 class="texto">Menu</h1></a>
+      <a href="../../paginas/produtos.html"><h1 class="texto">Produtos</h1></a>
+      <a href="../../paginas/sobre.html"><h1 class="texto">Sobre</h1></a>
+      <a href="../../paginas/login.html"><h1 class="texto">Cadastro/Login</h1></a>
+      <a href="../../paginas/carrinho.html"><h1 class="texto">Carrinho</h1></a>
+  </div>
+
+  <br><br>
+
+  <div class="container produto-container bg-white shadow rounded p-4">
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <img class="produto-img img-fluid rounded" src="../../imagens/produtos/ram.png" alt="Memória HyperX Fury DDR4 16GB">
+        </div>
+        <div class="col-md-6">
+          <h2 class="fw-bold">Memória Gamer HyperX Fury DDR4 16GB 2666 CL16</h2>
+          <p class="text-muted">Alta performance | Baixa latência | Ideal para games e multitarefas</p>
+          
+          <h3 class="text-success">R$ 180,00 <small class="text-muted fs-6">(à vista no Pix)</small></h3>
+          <p class="fw-bold text-success">Economize 5% no pagamento com Pix</p>
+          <h3 class="text-danger">R$ 220,00</h3>
+          <p class="fw-bold text-danger">Ou em até 11x de R$ 20,00 sem juros</p>
+
+          <p>
+            HyperX Fury DDR4 de 16GB oferece excelente performance em jogos e aplicativos pesados, com frequências de 2666MHz e design elegante.
+          </p>
+
+          <div class="d-grid gap-2 mt-4">
+              <button class="btn btn-primary btn-lg add-to-cart"
+                data-nome="Memória HyperX Fury DDR4 16GB 2666"
+                data-preco="180.00"
+                data-imagem="../../imagens/produtos/ram.png">
+                Adicionar ao Carrinho
+              </button>
+              <button class="btn btn-success btn-lg" id="comprar-agora">Comprar Agora</button>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-4">
+      <h4>Especificações Técnicas</h4>
+      <ul>
+        <li>Capacidade: 16GB</li>
+        <li>Frequência: 2666MHz</li>
+        <li>Latência: CL16</li>
+        <li>Tipo: DDR4</li>
+        <li>Compatível com placas-mãe DDR4</li>
+      </ul>
+
+      <hr class="my-4">
+      <h4>Garantia e Suporte</h4>
+      <p>✔ Garantia de <b>2 anos</b> diretamente com o fabricante.<br>
+         ✔ Suporte técnico especializado.<br>
+         ✔ Troca em até 7 dias em caso de defeito de fábrica.</p>
+
+      <hr class="my-4">
+      <h4>Avaliações dos Clientes</h4>
+      <div class="avaliacoes">
+        <p><b>⭐⭐⭐⭐⭐</b> — "Memória rápida e confiável, ótima para jogos." <i>- Gabriel F.</i></p>
+        <p><b>⭐⭐⭐⭐</b> — "Funciona perfeitamente no meu setup." <i>- Mariana L.</i></p>
+        <p><b>⭐⭐⭐⭐⭐</b> — "Excelente qualidade HyperX." <i>- Eduardo R.</i></p>
+      </div>
+  </div>
+
+  <script src="../../js/carrinho.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
